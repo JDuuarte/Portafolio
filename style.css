@@ -1,0 +1,148 @@
+/* barra de navegacion */
+
+.navbar{
+  background-color: #f5f6f7;
+}
+
+.navbar-collapse {
+  align-items: center;
+  justify-content: right;
+  padding: 2rem;
+}
+
+/* Estilos generales */
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+.section-oscura{
+  color: white;
+  background-color: #1b1b32;
+}
+
+.section-clara{
+  color: black;
+  background-color: white;
+}
+
+.section-titulo{
+  font-size: 2rem;
+  font-family: 'Rubik Dirt', cursive;
+  padding: 15px 0;
+}
+
+.section-texto{
+  font-size: 1.3rem;
+}
+
+/* Seccion hero */
+.hero{
+  background-color: #f5f6f7;
+  min-height: 450px;
+  text-align: center;
+}
+
+/* Hero Principal */
+  .hero-principa{
+    padding: 2rem;
+  }
+
+  .hero-principal-image{
+    width: 400px;
+    height: 400px;
+    padding: 2rem;
+  }
+
+  .hero-principal h1 {
+    font-family: 'Rubik Dirt', cursive;
+    font-size: 5rem;
+  }
+
+
+  .hero-principal h2 {
+    /* color: aqua; */
+    font-size: 3rem;
+  }
+
+/* Acerca de mi  */
+
+.acerca-mi{
+  height: 400px;
+  padding: 10px;
+}
+
+.acerca-mi .contenedor{
+  max-width: 60vw;
+  text-align: center;
+}
+
+/* experiencia */
+
+.experiencia{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.experiencia .row div{
+  /* height: 35vh; */
+  height: auto;
+  margin: 0.1rem 0;
+  /* border: solid 2px orange;
+  background-color: purple; */
+  
+}
+
+.estudios .iconos{
+  font-size: 4rem;
+  color: orange;
+}
+
+.experiencia-titulos{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.experiencia-parrafo{
+  font-size: 1.2rem;
+}
+
+.experiencia .row div .badge{
+  padding: 0.5rem;
+  font-size: 1.01rem;
+  margin: 1rem 0.5rem;
+}
+
+.estudios:hover{
+  transition: 0.15s;
+  color: white;
+  background-color: #1b1b32;
+  border-radius: 0.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen {
+  .hero-inferior img {
+    width: 600px;
+  }
+}
+
+  
